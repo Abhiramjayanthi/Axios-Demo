@@ -14,3 +14,20 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+```
+node -v
+npm -v
+git --version
+git clone https://github.com/Abhiramjayanthi/Axios-Demo.git
+cd Axios-Demo
+npm install
+npm run dev
+node src/crud.js
+npx ts-node src/assets/crudinTS.ts
+git pull origin main
+git add .
+git commit -m "your message"
+git push origin main
+to install any missing tool ts - npm install -D typescript ts-node
+```
